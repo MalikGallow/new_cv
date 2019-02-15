@@ -1,0 +1,58 @@
+body{
+    background-image: url("../images/homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: $font;
+
+}
+.head{
+    background-color: $profile;
+    width: 700px;
+    height: 630px;
+    margin-left: 400px;
+    img{
+        margin-top: 10px;
+        height: 300px;
+        width: 300px;
+        border: 4px solid white;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 17px;
+    }
+    h1{
+        font-family: $h1;
+        font-size: 40px;
+    }
+    text-align: center;
+    margin-top: 60px;
+}
+
+button{
+    background-color: black;
+    border: 2px solid white;
+    font-family: $font;
+    a{
+        
+       
+        color: white;
+       .fa-angle-double-right{
+           display: none;
+       } 
+    }
+
+    a:hover{
+        color: azure;
+        .fa-angle-double-right{
+            display: inline;
+        }
+    }
+}
+
+

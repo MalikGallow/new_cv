@@ -6,6 +6,11 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.929);
+  color: white;
+}
+
 .head {
   background-color: rgba(0, 0, 0, 0.929);
   width: 700px;

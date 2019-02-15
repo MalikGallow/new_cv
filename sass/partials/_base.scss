@@ -6,6 +6,20 @@ body{
     font-family: $font;
 
 }
+
+.navbar{
+    background-color: $profile;
+    a:hover{
+        color: black;
+        background-color: white;
+    }
+    
+}
+
+.navbar-item{
+    color: white;
+}
+
 .head{
     background-color: $profile;
     width: 700px;

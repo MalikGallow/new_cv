@@ -5,12 +5,22 @@ body{
     font-family: $font;
 }
 
+*{
+    font-family: $font;
+}
+
+// navbar
+nav{
+    position: fixed;
+}
+
 .head{
     background-color: $profile;
     width: 50%;
     color: white;
     padding: 30px;
     margin-top: 300px;
+    font-family: $h1;
 }
 
 // about styling
@@ -18,7 +28,9 @@ body{
     text-align: center;
     background-color: #1e1e1e;
     color: grey;
+    font-family: $font;
     h2{
+        padding-top: 20px;
         font-size: 30px;
     }
     p{
@@ -30,8 +42,9 @@ body{
     padding-top: 50px;
     padding-bottom: 40px;
     padding-left: 20px;
+    font-family: $font;
     p{
-        padding-left:40px;
+        padding-left:20px;
         padding-top: 30px;
     }
     img{
@@ -53,6 +66,7 @@ body{
 // background-position: center;
    color: #6e6d6c;
    background-attachment: fixed;
+   font-family: $font;
    h2{
        font-size: 30px;
        text-align: center;
@@ -129,6 +143,29 @@ body{
     }
 }
 
+img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+// interest
+.hobbies{
+    background-color: rgb(235, 230, 230);
+    color: #3a405a;
+    text-align: center;
+    h2{
+        font-size: 30px;
+    }
+}
+.interest{
+    padding-left: 40px;
+    padding-top: 30px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
 /* contact styling */
 footer{
     background-color:white;
@@ -142,16 +179,19 @@ footer{
 footer i{
     padding-left: 20px;
     font-size: 40px;
-    color: #3a405a;
+    color: black;
     
 }
  
 footer i:hover{
-    color: black;
+    border: 2px solid rgba(39, 42, 224, 0.788);
+    padding: 10px;
+    border-radius: 50%;
 }
 
  #fone:hover{
     animation: shake 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    border: none;
 } 
 
 #fone {

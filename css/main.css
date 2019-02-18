@@ -2,7 +2,15 @@ body {
   background-image: url("../images/home1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+nav {
+  position: fixed;
 }
 
 .head {
@@ -11,14 +19,17 @@ body {
   color: white;
   padding: 30px;
   margin-top: 300px;
+  font-family: "Lobster", cursive;
 }
 
 .about {
   text-align: center;
   background-color: #1e1e1e;
   color: grey;
+  font-family: "Quicksand", sans-serif;
 }
 .about h2 {
+  padding-top: 20px;
   font-size: 30px;
 }
 .about p {
@@ -29,9 +40,10 @@ body {
   padding-top: 50px;
   padding-bottom: 40px;
   padding-left: 20px;
+  font-family: "Quicksand", sans-serif;
 }
 .aboutContainer p {
-  padding-left: 40px;
+  padding-left: 20px;
   padding-top: 30px;
 }
 .aboutContainer img {
@@ -46,6 +58,7 @@ body {
   background-color: #ebe6e6;
   color: #6e6d6c;
   background-attachment: fixed;
+  font-family: "Quicksand", sans-serif;
 }
 .main h2 {
   font-size: 30px;
@@ -118,6 +131,29 @@ body {
   font-size: 30px;
 }
 
+img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.hobbies {
+  background-color: #ebe6e6;
+  color: #3a405a;
+  text-align: center;
+}
+.hobbies h2 {
+  font-size: 30px;
+}
+
+.interest {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.interest img {
+  width: 200px;
+  height: 200px;
+}
+
 /* contact styling */
 footer {
   background-color: white;
@@ -131,15 +167,18 @@ footer {
 footer i {
   padding-left: 20px;
   font-size: 40px;
-  color: #3a405a;
+  color: black;
 }
 
 footer i:hover {
-  color: black;
+  border: 2px solid rgba(39, 42, 224, 0.788);
+  padding: 10px;
+  border-radius: 50%;
 }
 
 #fone:hover {
   animation: shake 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+  border: none;
 }
 
 #fone {
@@ -178,6 +217,11 @@ footer i:hover {
 }
 
 .portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.interest {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }

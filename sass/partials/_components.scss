@@ -1,50 +1,56 @@
-// fone styling
-#fone {
-    padding-right: 10px;
-}
-
-#fone:hover{
-    animation: shake 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-} 
-
- @keyframes shake {
-    0%,
-    100% {
-      transform: rotate(0deg);
-      transform-origin: 50% 50%;
-    }
-    10% {
-      transform: rotate(8deg);
-    }
-    20%,
-    40%,
-    60% {
-      transform: rotate(-10deg);
-    }
-    30%,
-    50%,
-    70% {
-      transform: rotate(10deg);
-    }
-    80% {
-      transform: rotate(-8deg);
-    }
-    90% {
-      transform: rotate(8deg);
+// button styling for cv
+.head{
+  button{
+    background-color: $profile;
+    color: white;
+    border: 2px solid white;
+    height: 30px;
+    width: 100px;
+    // arrow
+    #arrow{
+      display: none;
     }
   }
 
-//contact icons
-
-.contact{
-    padding-top: 20px;
-    i{
-        font-size: 30px;
-        color: white;
-        padding-left: 20px;
+  button:hover{
+    background-color: white;
+    color: black; 
+    // arrow
+    #arrow{
+      display: inline;
     }
-
-    i:hover{
-        color: gray;
-    }
+  }
 }
+
+// loader styling
+#loader{
+  text-align: center;
+  padding: 350px;
+  font-size: 40px;
+  
+  color: white;
+}
+
+#loader {
+	-webkit-animation: color-change 2s linear infinite alternate both;
+	        animation: color-change 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+

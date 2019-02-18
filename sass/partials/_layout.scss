@@ -1,0 +1,18 @@
+// about layout
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+// skills
+.skillsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+// portfoio
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+

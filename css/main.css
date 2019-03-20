@@ -364,5 +364,37 @@ hr {
     font-size: 25px;
   }
 }
+/* media queries for tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .head {
+    margin-top: 100px;
+    margin-left: 170px;
+  }
+
+  #loader {
+    text-align: center;
+  }
+
+  .container {
+    margin-left: -22px;
+    max-width: 768px;
+    font-size: 15px;
+  }
+  .container img {
+    width: 200px;
+    height: 200px;
+  }
+  .container h2 {
+    padding-top: 10px;
+  }
+  .container p {
+    padding-bottom: 0px;
+  }
+
+  .slide {
+    margin-left: 80px;
+    width: 650px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

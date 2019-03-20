@@ -1,39 +1,52 @@
-@media only screen and (max-width: 768px){
-    // homepage styling
-    *{
-        background-image: url("../images/home1.jpeg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+@media only screen 
+and (min-device-width: 0px)
+and (max-device-width: 767px){
+    // home page styling
+    
+
     .head{
-        background-image: none;
-        margin-left: 50px;
-        margin-bottom: 20px;
-        margin-top: 70px;
-        p, h3, h1, button{
-            background-image: none;
-            
+        margin-left: 60px;
+        margin-bottom: 30px;
+        margin-top: 201px;
+        height: 252px;
+    }
+
+    .aboutContainer{
+        display: block;
+        img{
+            width: 200px;
+            height: 250px;
         }
-        height: 70vh;
+    }
+
+    .container{
+        display: block;
         
     }
 
-    // cv styling
-    nav{
-        img{
-            width: 40px;
-            height: 30px;
-        }
-        background-color: white;
+    .item{
+        margin-left: 5px;
     }
 
-    .about{
-        img{
-            height: 50px;
-            width: 50px;
-        }
-
+    .skillsContainer{
         display: block;
     }
+
+    .slide{
+        width: 300px;
+        margin-left: 30px;
+        height: 250px;
+
+        img{
+            height: 250px;
+        }
+    }
+
+    footer{
+        font-size: 20px;
+        i{
+            font-size: 25px;
+        }
+    }
 }
+

@@ -22,37 +22,6 @@
   }
 }
 
-// loader styling
-#loader{
-  text-align: center;
-  padding: 350px;
-  font-size: 40px;
-  
-  color: white;
-}
-
-#loader {
-	-webkit-animation: color-change 2s linear infinite alternate both;
-	        animation: color-change 2s linear infinite alternate both;
-}
-
-@-webkit-keyframes color-change {
-  0% {
-    background: #19dcea;
-  }
-  100% {
-    background: #b22cff;
-  }
-}
-@keyframes color-change {
-  0% {
-    background: #19dcea;
-  }
-  100% {
-    background: #b22cff;
-  }
-}
-
 // skills elements syling
 .html{
   background-color: white;

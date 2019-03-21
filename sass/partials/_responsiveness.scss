@@ -5,10 +5,13 @@ and (max-device-width: 767px){
     
 
     .head{
-        margin-left: 60px;
-        margin-bottom: 30px;
-        margin-top: 201px;
-        height: 252px;
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+
+    header{
+        height: 50vh;
     }
 
     .aboutContainer{
@@ -33,8 +36,8 @@ and (max-device-width: 767px){
     }
 
     .slide{
-        width: 300px;
-        margin-left: 30px;
+        width: 80%;
+        margin: auto;
         height: 250px;
 
         img{
@@ -55,8 +58,13 @@ and (max-device-width: 767px){
  and (min-device-width: 768px) 
 and (max-device-width: 1024px){
     .head{
-        margin-top: 100px;
-        margin-left: 170px;
+        margin-top: 60px;
+        margin-left: 190px;
+        
+    }
+
+    header{
+        height: 45vh;
     }
 
     #loader{
@@ -81,7 +89,7 @@ and (max-device-width: 1024px){
         }
     }
     .slide{
-        margin-left: 80px;
-        width: 650px;
+        margin: auto;
+        width: 80%;
     }
 }

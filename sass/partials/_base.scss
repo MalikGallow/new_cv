@@ -1,7 +1,4 @@
 body{
-    background-image: url("../images/bannerImage.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: $font;
     margin-bottom: 0%;
 }
@@ -16,14 +13,41 @@ nav{
     position: fixed;
 }
 
+header{
+    height: 70vh;
+    margin-top: 0%;
+    background-image: url("../images/art.jpg");
+    background-attachment: fixed;
+}
+
 .head{
     background-color: $profile;
     width: 50%;
     color: white;
     padding: 30px;
-    margin-top: 300px;
     font-family: $h1;
+    margin-left: 10px;
+    margin-top: 70px;
+
+    a{
+        font-size: 30px;
+        color: white;
+        padding-left: 10px;
+    }
+
+    a:hover{
+        background-color: white;
+        border-radius: 100%;
+        color: black;
+        padding-right: 8px;
+    }
+
+    h3{
+        letter-spacing: 5px;
+    }
 }
+
+
 
 // about styling
 .about{
@@ -64,8 +88,7 @@ nav{
 .main{
 
    background-color: rgb(235, 230, 230);
-// background-image: url("../images/pexels-mountains.jpeg");
-// background-position: center;
+
    color: #6e6d6c;
    background-attachment: fixed;
    font-family: $font;
@@ -143,10 +166,12 @@ footer{
     color: grey;
     text-align: center;
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     margin-top: 40px;
     display: inline-block;
-    
+    h2{
+        padding-top: 60px;
+    }
 }
 
 footer i{
